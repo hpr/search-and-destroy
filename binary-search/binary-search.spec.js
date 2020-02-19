@@ -21,5 +21,7 @@ describe('Binary Search', () => {
 	});
 
 	//(OPTIONAL) WRITE YOUR OWN TESTS HERE. Include >=1 edge case :)
-
+  it('returns false on empty array', () => {
+    expect(binarySearch([], 1)).to.equal(false);
+  });
 });
